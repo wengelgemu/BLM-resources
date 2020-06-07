@@ -1,0 +1,109 @@
+html {
+    background-color: #10509E;
+    color: #F2E6DD
+  }
+  .page-header-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #F2E6DD;
+    font-size: 100px;
+    font-family: futura-pt, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .page-header-sub {
+    margin-bottom: 100px;
+    text-align: center;
+    color: #E7B054;
+    font-size: 15px;
+    font-family: futura-pt,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  b{
+    font-size: 30px;
+    color: #E7B054;
+    font-family: futura-pt,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 30px;
+  }
+
+  c{
+    font-size: 50px;
+    color: #F2E6DD;
+    /* font-family: bookmania,serif;
+    font-weight: 100px;
+    font-style: normal; */
+  }
+  
+  c:hover{
+    font-size: 60px;
+    color: #F97D94;
+  }
+
+  li{
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+    text-align: center;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+    padding: 2vw;
+    font-family: futura-pt,sans-serif;
+    /* font-family: monospace; */
+  }
+
+  a:hover{
+    /* background-color: #C6E9FF; */
+  }
+
+  nav{
+    width: 100vw;
+    background-color: #F2E6DD;
+    /* text-align: center; */
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  body{
+    margin: 0;
+  }
+
+  .page-bottom{
+    margin-top: 250px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #F2E6DD;
+  }
+  .page-bottom:hover{
+    color: #C784CE;
+  }
+
+/*change the layout of the navigation bar for all the screens 
+that have a width less or equal than 500px*/
+
+@media only screen and (max-width: 500px) {
+    /*shows elements in a column*/
+    ul{
+      flex-direction: column;
+    }
+    
+    /* deletes margin on top or bottom of the a tag*/
+    li{
+      margin: 0;
+    }
+   /* makes sure that the a tag will take the entire screen*/
+    a{
+      display: block;
+    }
+  }
