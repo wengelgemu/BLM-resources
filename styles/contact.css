@@ -21,12 +21,21 @@ html {
   font-weight: 200;
   font-style: normal;
 }
+b{
+  font-size: 30px;
+  color: #E7B054;
+  font-family: futura-pt,sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  margin-left: 30px;
+}
 
 c{
   font-size: 40px;
   color: #F2E6DD;
-  /* font-family: bookmania,serif;
-  font-weight: 100px;
+  font-family: futura-pt,sans-serif;
+  padding: 2vw;
+  /* font-weight: 100px;
   font-style: normal; */
 }
 
